@@ -1,0 +1,140 @@
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0 70px 0;
+    padding: 10px;    
+}
+.col{
+    flex-basis: 100%;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.title{
+   font-size: 50px;
+   line-height: 60px;
+   color: rgb(233, 40, 40);
+   text-align: center;
+}
+
+.summary{
+    font-size: 40px;
+    line-height: 50px;
+    color: rgb(92, 84, 84);
+    text-align: center;
+}
+
+.description{
+    font-size: 30px;
+   line-height: 40px;
+   color: rgb(92, 84, 84);
+   text-align: center;
+}
+
+
+
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+
+.col-1 h1{
+    font-size: 55px;
+    color: brown;
+    text-transform: uppercase;
+}
+.col-1 h2{
+    font-size: 40px;
+}
+
+.col-1 h3{
+    font-size: 30px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0 10px
+}
+
+.col-1 p{
+    font-size: 16px;
+    color: #be3691;
+    font-weight: bold;
+    margin: 20px 0 20px;
+    text-transform: uppercase;
+}
+
+.col-1 h4{
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.col-1::after{
+    content: '';
+    width: 10px;
+    height: 70%;
+    background: linear-gradient(#ff469f, #ff6062);
+    position: absolute;
+    top: 8px;
+    left: -40px;
+}
+
+.col-2{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.col-2 .vul-img{
+    width: 80%;
+}
+
+.color-box{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: radial-gradient(#ff469f, #ff6062);
+    border-radius: 20px 0 0 20px;
+    height: 80%;
+    width: 80%;
+    z-index: -1;
+    transform: translateX(-50px);
+}
+
+.social-links img{
+    height: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.social-links{
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px){
+    .row{
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+    .col-2{
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+    .col-2 .vul-img{
+        width: 70%;
+    }
+    .col-1{
+        flex-basis: 100%;
+    }
+    .col-1 h1{
+        font-size: 35px;
+    }
+    .col-1 h2{
+        font-size: 25px;
+    }
+    .col-1 h3{
+        font-size: 15px;
+    }
+}
