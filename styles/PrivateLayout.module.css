@@ -1,0 +1,19 @@
+.container{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    max-width: calc(100%-200px);
+    margin-left: 60px;
+    transition: all 1s ease;
+
+}
+
+.container-active{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    max-width: calc(100%-60px);
+    margin-left: 240px;
+    transition: all 1s ease;
+
+}

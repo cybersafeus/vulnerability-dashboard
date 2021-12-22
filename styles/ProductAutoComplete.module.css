@@ -1,0 +1,8 @@
+.input-container { position: relative; width:500px; }
+.input-container {background-color:#fff; display:block; width: 100%; box-sizing: border-box }
+.input-container img { position: absolute; top: 2px; right: 5   px }
+
+.input-disabled input{
+    pointer-events: none; 
+}
+
