@@ -14,7 +14,7 @@ export default function ProductSuggestions({ filteredSuggestions, activeSuggesti
     </ul>
   ) : (
     <div className={styles['no-suggestions']}>
-      <em>No suggestions, you're on your own!</em>
+      <em>No suggestions, you are on your own!</em>
     </div>
   );
 }
