@@ -3,7 +3,7 @@ import { FaBars } from "react-icons/fa";
 import { RiLogoutBoxRLine } from 'react-icons/ri';
 import styles from '../styles/Sidebar.module.css'
 import { SideBarData } from './NavigationData'
-import Link from 'next/Link'
+import Link from 'next/link'
 import Tooltip from '@mui/material/Tooltip';
 export default function Sidebar({ children, toglleSideBar, sideBar }) {
 
